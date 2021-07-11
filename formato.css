@@ -118,23 +118,26 @@ img{
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px){
     *{
-        font-size: 14px;
+        font-size: 16px;
+    }
+    .mainscreen{
+        padding: 10px 160px;
     }
     img{
         padding: 10px;
-        width: 35%;
-        height: 35%;
+        width: 25%;
+        height: 25%;
     }
     .status h2{
-        height: 45px;
+        height: 50px;
     }
     .status p{
-        height: 70px;
+        height: 100px;
     }
     .actions{
-        height: 60px;
+        height: 65px;
     }
 }
 
@@ -142,9 +145,12 @@ img{
     *{
         font-size: 14px;
     }
+    .mainscreen{
+        padding: 10px 300px;
+    }
     img{
         padding: 10px;
-        width: 25%;
+        width: 40%;
         height: 25%;
     }
     .status h2{
