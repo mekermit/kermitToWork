@@ -117,3 +117,43 @@ img{
         height: 70px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    *{
+        font-size: 14px;
+    }
+    img{
+        padding: 10px;
+        width: 35%;
+        height: 35%;
+    }
+    .status h2{
+        height: 45px;
+    }
+    .status p{
+        height: 70px;
+    }
+    .actions{
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    *{
+        font-size: 14px;
+    }
+    img{
+        padding: 10px;
+        width: 25%;
+        height: 25%;
+    }
+    .status h2{
+        height: 45px;
+    }
+    .status p{
+        height: 70px;
+    }
+    .actions{
+        height: 60px;
+    }
+}
